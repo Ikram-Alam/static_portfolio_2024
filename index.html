@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ikram's Interactive Resume</h1>
+  </header>
+
+  <!-- Personal Information Section -->
+  <section id="personal-info">
+    <h2>Personal Information</h2>
+    <img src="me.jpg" alt="Profile Picture">
+    <p><strong>Name:</strong> Ikram</p>
+    <p><strong>Email:</strong> ikram@example.com</p>
+    <p><strong>Phone:</strong> +123 456 7890</p>
+    <button class="toggle-btn" data-target="personal-info">Toggle Personal Info</button>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>B.Sc. in Computer Science - XYZ University (2020)</li>
+      <li>Machine Learning Specialization - Coursera (2022)</li>
+      <li>Certified Python Developer - Google (2023)</li>
+    </ul>
+    <button class="toggle-btn" data-target="education">Toggle Education</button>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: JavaScript, Python, TypeScript</li>
+      <li>Web Development: HTML, CSS, Node.js, React.js</li>
+      <li>Machine Learning: Scikit-learn, TensorFlow, YOLO</li>
+      <li>Database Management: MongoDB, MySQL</li>
+    </ul>
+    <button class="toggle-btn" data-target="skills">Toggle Skills</button>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="work-experience">
+    <h2>Work Experience</h2>
+    <ul>
+      <li>Software Engineer at ABC Corp (2021-2023)</li>
+      <li>Data Scientist at XYZ Analytics (2020-2021)</li>
+    </ul>
+    <button class="toggle-btn" data-target="work-experience">Toggle Work Experience</button>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Gym Management System:</strong> Developed a dynamic web application for gym scheduling and management.</li>
+      <li><strong>Movie Recommendation System:</strong> Built a machine learning model to recommend movies based on user preferences.</li>
+      <li><strong>Barcode Detection System:</strong> Created a custom YOLO model to detect and decode barcodes from images.</li>
+    </ul>
+    <button class="toggle-btn" data-target="projects">Toggle Projects</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Ikram's Resume. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.ts"></script>
+</body>
+</html>
